@@ -84,13 +84,40 @@
     text-align: center;
 }
 .empresas {
-    display: flex;
+    display: grid;
     gap: 1rem;
 }
 
 .empresa {
-
     padding: 10px;
     border-radius: 1rem;
     background-color: var(--Darkcyan);
+
+}
+
+.empresa:hover {
+    background-color: transparent;
+    border: 2px solid var(--Darkcyan);
+}
+
+.aspiracion {
+    padding: 1rem;
+
+}
+
+.aspiracion h2 {
+    text-align: center;
+}
+
+.academico {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.academico h3 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
