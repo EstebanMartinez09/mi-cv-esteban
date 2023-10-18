@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito & display=swap');
+
+:root {
+    --Cream: hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkcyan: hsl(158, 36%, 37%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contenerdor {
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cream);
+
+}
+
+.card {
+
+    max-width: 1000px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+    border: 2px solid var(--Verydarkblue);
+
+}
+
+.presentacion p {
+
+    margin: 5px;
+    padding: 1rem;
+    border: 2px solid var(--Verydarkblue);
+    text-align: center;
+
+}
+
+.formacion__academica {
+
+    padding: 1rem;
+
+
+}
+
+.formacion__academica h2 {
+
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.institucion {
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.instituciones {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.experiencia__laboral {
+    max-width: 1000px;
+}
+
+.experiencia__laboral h2 {
+    padding: 2rem;
+    text-align: center;
+}
+.empresas {
+    display: flex;
+    gap: 1rem;
+}
+
+.empresa {
+
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: var(--Darkcyan);
+}
